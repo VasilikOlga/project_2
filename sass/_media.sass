@@ -1,0 +1,309 @@
+// @import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+	.container
+		padding: 30px 37px 0 37px
+		.thailand
+			margin-bottom: 22px
+		.france
+			margin-bottom: 30px
+		.turkey
+			margin-bottom: 22px
+		.thai
+			justify-content: center
+			margin-bottom: 50px
+			&>div
+				width: 90%
+			&__img
+				max-width: 70%
+				text-align: center
+				margin-bottom: 20px
+			&__text
+				.thai__top
+					text-align: center
+					h3:after
+						left: calc(50% - 27px)
+
+
+			
+		.paris
+			justify-content: center
+			margin-bottom: 50px
+			&>div
+				width: 90%
+			&__img
+				max-width: 70%
+				text-align: center
+			&__top
+				text-align: center
+				h3:after
+					left: calc(50% - 27px)
+			
+			input
+				margin-bottom: 35px
+
+		.alanya
+			justify-content: center
+			margin-bottom: 50px
+			&>div
+				width: 90%
+			&__img
+				max-width: 70%
+				text-align: center
+				margin-bottom: 20px
+			&__top
+				text-align: center
+				h3:after
+					left: calc(50% - 27px)
+		
+		.tittle
+			margin-bottom: 30px
+		
+	.top_footer
+		.contact>div
+				margin-bottom: 9px
+				
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+	.container
+		padding: 20px 25px 0 25px
+		.education
+			h3
+				font-size: 23px
+			&__text
+				font-size: 12px
+	
+	
+@media only screen and (max-width : 700px)
+	/**/
+	.container
+		.top_header
+    		margin-bottom: 26px
+		.menu
+			a
+				margin-right: 8px
+		.tittle
+			font-size: 18px
+			margin-bottom: 22px
+		.paris
+			margin-bottom: 45px
+		.thai
+			margin-bottom: 45px
+		.alanya
+			margin-bottom: 45px
+
+		.education
+			h3
+				margin: 31px 0 18px
+	
+	.feedback
+		.button
+			margin-left: 55%
+			margin-top: 7px
+	.top_footer
+		padding: 17px
+	.arrow
+		bottom: 7px
+		right: 7px
+	.last_footer
+		padding-top: 5px
+		height: 40px
+		
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width : 650px)
+	/**/
+	.container
+		padding: 15px 12px 0 12px
+		h1
+			font-size: 19px
+		h2
+			font-size: 18px
+		.top_header
+			flex-wrap: wrap
+			align-content: center
+			justify-content: center
+			.logo__link
+				margin-right: 12px
+		.flexslider
+			li
+				margin: 0 4px
+		.tittle
+			margin-bottom: 15px
+		.thai
+			margin-bottom: 15px
+		.paris
+			margin-bottom: 15px
+
+		.alanya
+			margin-bottom: 15px
+		.education
+			h3
+				margin: 0 0 12px
+				font-size: 19px
+			&__text
+				margin-bottom: 15px
+		.certificate__item
+			width: 70%
+			margin: 0 auto 10px
+
+	.top_footer
+		padding: 7px
+		margin-bottom: 0
+		.line
+			margin-bottom: 20px
+		.info
+			justify-content: center
+			font-size: 10px
+			.contact
+				&>div
+					margin-bottom: 7px
+				
+			&>div
+				width: 57%
+	.last_footer
+		height: 30px
+		.rights
+    		font-size: 8px
+		
+@media only screen and (max-width : 480px)
+	/**/
+	.container
+		padding: 8px 2px 0
+		.headline
+			margin-bottom: 15px
+		.top_header
+			display: block
+			margin-bottom: 15px
+			.logo__link
+				font-size: 14px
+		h1
+			font-size: 16px
+
+		h2
+			font-size: 15px
+		h3 
+			font-size: 12px
+		span
+			font-size: 12px
+		p
+			font-size: 10px
+		
+		.travel
+			margin-bottom: 13px
+		.flex-viewport
+			margin-bottom: 5px
+		.flexslider
+			li
+				margin: 0 1px	
+		.menu__list
+			display: block
+			margin: 0 auto
+			li
+				text-align: center
+				box-shadow:   rgba(0,0,0,.8) 2px 2px 5px -1px
+				margin-bottom: 1px
+				font-size: 8px
+		.thailand
+			margin-bottom: 10px
+		.thai
+			&__img
+				margin-bottom: 10px
+			.button
+				margin-top: 3px
+				margin-bottom: 3px
+				min-width: 70px
+		.france
+			margin-bottom: 14px
+		.paris
+			.button
+				margin-top: 3px
+				margin-bottom: 5px
+				min-width: 70px
+		.turkey
+			margin-bottom: 8px
+		.alanya
+			.button
+				margin-top: 3px
+				margin-bottom: 4px
+				min-width: 70px
+
+		.education
+			h3
+				font-size: 13px
+			&__text
+				margin: 10px auto
+				font-size: 10px
+			&__img
+				margin-bottom: 17px
+			.certificate
+				margin-bottom: 9px
+				span
+					font-size: 9px
+	.top_footer
+		padding: 5px
+		.feedback
+			.ask
+				margin-bottom: 2px
+			.button
+				margin-top: 3px
+				margin-bottom: 1px
+		.info
+			font-size: 9px
+			padding: 0
+		.line
+			font-size: 14px
+			margin-bottom: 10px
+	.last_footer
+		height: 24px
+		.map
+			font-size: 8px
+
+
+		
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+	.arrow
+		display: none
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
