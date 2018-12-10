@@ -11,7 +11,8 @@ $(window).load(function() {
   });
 });
 
-$('.top').on('click', function(e) {
-  e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '300');
-});
+
+$("a[href='.top']").click(function() {
+     $("html, body").animate({ scrollTop: 0 }, "300");
+     return false;
+  });
