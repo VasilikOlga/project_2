@@ -996,14 +996,14 @@ html[xmlns] .flexslider .slides {
         position: absolute;
         top: 120%;
         left: -42px;
-        padding: 9px 18px;
+        padding: 10px 18px;
         -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
                 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
         -webkit-border-radius: 3px;
                 border-radius: 3px;
         background: #303030;
-        z-index: 1;
-        font-size: 11px; }
+        z-index: 11;
+        font-size: 12px; }
       .container .menu ul:after {
         width: 0px;
         height: 0px;
